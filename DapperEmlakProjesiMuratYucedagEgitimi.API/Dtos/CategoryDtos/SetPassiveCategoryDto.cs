@@ -1,8 +1,11 @@
 ﻿namespace DapperEmlakProjesiMuratYucedagEgitimi.API.Dtos.CategoryDtos
 {
-    public class UpdateCategoryDto
+    public class SetPassiveCategoryDto
     {
         public int CategoryID { get; set; }
-        public string CategoryName { get; set; }
+    }
+    public class SetActiveCategoryDto
+    {
+        public int CategoryID { get; set; }
     }
 }
