@@ -1,0 +1,6 @@
+@DapperEmlakProjesiMuratYucedagEgitimi.API_HostAddress = http://localhost:5088
+
+GET {{DapperEmlakProjesiMuratYucedagEgitimi.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
