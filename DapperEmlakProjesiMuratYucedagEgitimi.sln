@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperEmlakProjesiMuratYucedagEgitimi.API", "DapperEmlakProjesiMuratYucedagEgitimi.API\DapperEmlakProjesiMuratYucedagEgitimi.API.csproj", "{6C2B763D-8E33-4BB0-B32B-A2AB7F2F95C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperEmlakProjesiMuratYucedagEgitimi.API", "DapperEmlakProjesiMuratYucedagEgitimi.API\DapperEmlakProjesiMuratYucedagEgitimi.API.csproj", "{6C2B763D-8E33-4BB0-B32B-A2AB7F2F95C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DapperEmlakProjesiMuratYucedagEgitimi.MVC", "DapperEmlakProjesiMuratYucedagEgitimi.MVC\DapperEmlakProjesiMuratYucedagEgitimi.MVC.csproj", "{34C2AE6E-C1AC-4CBD-BED9-AF6685554068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperEmlakProjesiMuratYucedagEgitimi.MVC", "DapperEmlakProjesiMuratYucedagEgitimi.MVC\DapperEmlakProjesiMuratYucedagEgitimi.MVC.csproj", "{34C2AE6E-C1AC-4CBD-BED9-AF6685554068}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{F6757350-1358-4FE9-A6CD-C9B4B13BA502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{7D9DE7D7-729D-47DC-878D-F5F1A1ADB6DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{1A41FC66-8F34-4DCC-8EE9-7095CC8B5983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{63A88DB2-1B10-474E-880C-86D49335A65E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,23 @@ Global
 		{34C2AE6E-C1AC-4CBD-BED9-AF6685554068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34C2AE6E-C1AC-4CBD-BED9-AF6685554068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34C2AE6E-C1AC-4CBD-BED9-AF6685554068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6757350-1358-4FE9-A6CD-C9B4B13BA502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6757350-1358-4FE9-A6CD-C9B4B13BA502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6757350-1358-4FE9-A6CD-C9B4B13BA502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6757350-1358-4FE9-A6CD-C9B4B13BA502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C2B763D-8E33-4BB0-B32B-A2AB7F2F95C4} = {1A41FC66-8F34-4DCC-8EE9-7095CC8B5983}
+		{34C2AE6E-C1AC-4CBD-BED9-AF6685554068} = {63A88DB2-1B10-474E-880C-86D49335A65E}
+		{F6757350-1358-4FE9-A6CD-C9B4B13BA502} = {7D9DE7D7-729D-47DC-878D-F5F1A1ADB6DB}
+		{AE1D07AE-918F-4F0B-B59F-AC5FB716C19A} = {7D9DE7D7-729D-47DC-878D-F5F1A1ADB6DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {27DA6373-3418-4069-A006-D27CB927FDD9}

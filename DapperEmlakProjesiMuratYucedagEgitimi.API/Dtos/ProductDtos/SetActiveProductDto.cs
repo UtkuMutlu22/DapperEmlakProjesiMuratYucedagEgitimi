@@ -1,6 +1,6 @@
 ﻿namespace DapperEmlakProjesiMuratYucedagEgitimi.API.Dtos.ProductDtos
 {
-    public class SetActiveProductDetailDto
+    public class SetActiveProductDto
     {
         public int ID { get; set; }
         public string Title { get; set; }

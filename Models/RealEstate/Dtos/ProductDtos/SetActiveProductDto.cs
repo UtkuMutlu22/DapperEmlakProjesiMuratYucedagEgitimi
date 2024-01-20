@@ -1,10 +1,10 @@
-﻿namespace DapperEmlakProjesiMuratYucedagEgitimi.API.Dtos.ProductDtos
+﻿namespace Models.RealEstate.Dtos.ProductDtos
 {
-    public class SetPassiveProductDto
+    public class SetActiveProductDto
     {
         public int ID { get; set; }
         public string Title { get; set; }
-        public Decimal Price { get; set; }
+        public decimal Price { get; set; }
         public string CoverImage { get; set; }
         public string City { get; set; }
         public string District { get; set; }

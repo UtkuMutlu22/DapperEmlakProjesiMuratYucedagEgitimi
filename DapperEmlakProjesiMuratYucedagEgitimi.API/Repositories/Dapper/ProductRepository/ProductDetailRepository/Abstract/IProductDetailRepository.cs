@@ -1,17 +1,17 @@
-﻿using DapperEmlakProjesiMuratYucedagEgitimi.API.Dtos.CategoryDtos;
+﻿using DapperEmlakProjesiMuratYucedagEgitimi.API.Dtos.ProductDtos.ProductDetailDtos;
 
 namespace DapperEmlakProjesiMuratYucedagEgitimi.API.Repositories.Dapper.ProductRepository.ProductDetailRepository.Abstract
 {
     public interface IProductDetailRepository
     {
-        //Task<List<ResultCategoryDto>> GetAllCategoryAsync();
-        //Task<List<ResultCategoryDto>> GetActiveCategoryAsync();
-        //Task<List<ResultCategoryDto>> GetPassiveCategoryAsync();
-        //Task<bool> CreateCategoryAsync(CreateCategoryDto categoryDto);
-        //Task<ResultCategoryDto> GetCategoryByIDAsync(int id);
-        //Task<bool> DeleteCategoryAsync(int categoryId);
-        //Task<bool> UpdateCategoryAsync(UpdateCategoryDto categoryDto);
-        //Task<bool> SetPassiveCategoryAsync(SetPassiveCategoryDto categoryDto);
-        //Task<bool> SetActiveCategoryAsync(SetActiveCategoryDto categoryDto);
+        Task<List<ResultProductDetailDto>> GetAllProductDetailAsync();
+        Task<List<ResultProductDetailDto>> GetActiveProductDetailAsync();
+        Task<List<ResultProductDetailDto>> GetPassiveProductDetailAsync();
+        Task<bool> CreateProductDetailAsync(CreateProductDetailDto ProductDetailDto);
+        Task<ResultProductDetailDto> GetProductDetailByIDAsync(int id);
+        Task<bool> DeleteProductDetailAsync(int ProductDetailId);
+        Task<bool> UpdateProductDetailAsync(UpdateProductDetailDto ProductDetailDto);
+        Task<bool> SetPassiveProductDetailAsync(SetPassiveProductDetailDto ProductDetailDto);
+        Task<bool> SetActiveProductDetailAsync(SetActiveProductDetailDto ProductDetailDto);
     }
 }

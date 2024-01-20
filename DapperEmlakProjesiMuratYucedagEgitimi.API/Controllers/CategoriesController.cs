@@ -10,7 +10,7 @@ namespace DapperEmlakProjesiMuratYucedagEgitimi.API.Controllers
     public class CategoriesController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
-
+        
         public CategoriesController(ICategoryRepository categoryRepository)
         {
             _categoryRepository = categoryRepository;
